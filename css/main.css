@@ -1,0 +1,889 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	padding-left: 50px;
+	padding-right: 70px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+}
+.menu button{
+	padding: 0px;
+}
+.menu button .nbspan{
+	width: 40px;
+}
+.menu button .nhan{
+	width: 40px;
+	font-size: 33px;
+	display: none;
+}
+.menu ul li{
+	border-bottom: 1px solid transparent;
+	transition: 0.5s;
+}
+.menu ul li a{
+	transition: 0.3s;
+	color: rebeccapurple !important;
+}
+.menu ul li:first-child a{
+	color: red !important;
+}
+.menu ul li:last-child a{
+	color: orange !important;
+}
+.menu ul li.active {
+	color: white !important;
+	transition: 0.5s;
+	background: green;
+}
+.menu ul li a:hover{
+	color: white !important;
+	transition: 0.5s;
+	background: green;
+	box-shadow: 1px 1px 3px 3px black;
+}
+.pic{
+	padding-top: 3%;
+}
+.pic img{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 582px;
+	padding-top: 21px;
+}
+.text1{
+	position: absolute;
+	top: 27%;
+	background: transparent;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+}
+.text1 h1{
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+.text1 a{
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 20px;
+}
+.text1 span{
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.text-light{
+	margin-top: 120px;
+	cursor: pointer;
+}
+.text1 span:hover{
+	color: #007bff;
+	transition: 0.5s;
+}
+.complain1{
+	padding: 80px 0;
+	text-align: center;
+}
+.complain1 .cen{
+	text-align: 
+}
+p{
+	color: #666666;
+}
+hr{
+	margin: 16px auto;
+	height: 2px;
+}
+.complain1 img{
+	margin: 20px 0;
+	transition: 0.4s;
+}
+.complain1 img:hover{
+	transition: 0.5s;
+	box-shadow: 2px 2px 5px 5px orange;
+}
+.complain2{
+	background: whitesmoke;
+	padding-top:100px;
+}
+.complain2 .cen{
+	text-align: center;
+}
+
+.complain2>img{
+	width:  90%;
+	margin-bottom:0px; 
+}
+.complain2 .row img{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.complain2 .facts{
+	padding-right: 0;
+	padding-left: 0;
+}
+ .row{
+	margin-left: 0;
+	margin-right: 0; 
+}
+.couterson{
+	position: absolute;
+	width: 100%;
+	right: 0px;
+	top: 40%;
+	color: orange;
+	font-size: 30px;
+	text-align: center;
+}
+.complain2 .spp{
+	display: inline-block;
+}
+.complain2 .spp p {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+}
+.complain3{
+	padding-bottom: 0px;
+}
+.complain3 .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.complain3 .cp3r{
+	margin: 30px;
+}
+.complain3 .row ul{
+	margin: 0 auto;
+}
+.complain3 ul li{
+	background: #cc33cc;
+	font-size: 12px;
+	transition: 0.5s;
+}
+.complain3 ul li:hover{
+	background: #660066;
+	transition: 0.5s;
+}
+.complain3 .item-desc{
+	display: none;
+}
+.complain3 .container1{
+	padding: 0;
+}
+.complain3 img{
+	cursor: pointer;
+}
+.complain3 .imgson {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.complain3 .overlay20 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+}
+.complain3 .overlay20 p{
+	color: yellow;
+}
+.complain3 .overlay19{
+	background-color: #008CBA;
+}
+.container1:hover .overlay20 {
+  opacity: .9;
+}
+
+.complain3 .text20 {
+	cursor: pointer;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.complain3 .text20 span:hover{
+	text-decoration: underline;
+}
+
+/*copanh*/
+img {
+  max-width: 100%;
+}
+.filtr-item {
+    padding: 1rem;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+.simplefilter, .multifilter, .sortandshuffle, .search-row {
+  padding-left: 0;
+}
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.simplefilter li {
+    background-color: #585858;
+}
+.simplefilter li.active {
+    background-color: #660066;
+}
+.multifilter li {
+    background-color: #4b9eff;
+}
+.multifilter li.active {
+    background-color: #2265b4;
+}
+/**/
+
+.complain4{
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+.complain4 .cp4icon i{
+	background: whitesmoke;
+	padding: 50px;
+	font-size: 35px;
+	color: #999999;
+	cursor: pointer;
+	text-align: center;
+	width: 100%;
+	transition: 0.5s;
+}
+.complain4 .row .cpbod{
+	border: 1px solid whitesmoke;
+}
+.complain4 .cp4icon i:hover{
+	color: green;
+	transition: 0.5s;
+	box-shadow: 1px 1px 2px 2px green;
+}
+.complain4 .row span{
+	font-size: 13px;
+}
+.complain4 .species{
+	text-align: left !important;
+}
+.complain4 .man img{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.complain4 .species .chungdad{
+	padding-top: 10%;
+}
+.complain4 .species .ontext, .belowtext{
+	float: left;
+	/*display: inline-block;*/
+}
+.complain4 .species .on{
+	margin-bottom:40px;
+	padding-right: 0;
+}
+.ahi{
+	width: 20%;
+}
+.ahihii{
+	width: 75%;
+	float:left;
+	/*display: inline-block;*/
+}
+.ahihii h6{
+	transition: 0.5s;
+}
+.ahihii h6:hover{
+	cursor: pointer;
+	color: orange;
+	transition: 0.3s;
+}
+.complain4 .species i{
+	background: orange;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+.complain4 .species i:hover{
+	background: white;
+	color: orange;
+	border: 1px solid orange;
+	transition: 0.5s;
+	box-shadow: 1px 1px 2px 2px orange;
+}
+=
+.complain4 .species .chung{
+	padding: 15px;
+	width: 60%;
+	text-align: center;
+}
+.complain4 .cpfoot{
+	background: orange;
+	color: white;
+	padding: 50px;
+	margin-right:0;
+	margin-left: 0; 
+}
+.complain4 .cpfoot div:first-child{
+	padding-top: 7px;
+}
+.complain5 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.complain5 .row{
+	text-align: center;
+}
+.complain5 .row img{
+	width: 25%;
+	position: absolute;
+	top:0;
+	left: 39%;
+}
+
+.complain5 .cp5da{
+	background: whitesmoke;
+	padding:50px 30px;
+	margin-top: 60px;
+}
+.complain5 .hv{
+	width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-top: 20px solid whitesmoke;
+}
+
+.complain6{
+	background: whitesmoke;
+}
+.complain6 .cp6 hr{
+	text-align: left !important;
+	margin:45px 0;
+}
+.complain6 .card button{
+	padding-left: 0;
+}
+.complain6 .card button i{
+	padding-right: 30px;
+}
+.complain6 .card-header{
+	background: lightslategrey;
+}
+.complain6 .card-header button{
+	color: white;
+}
+.complain7{
+	padding: 100px 0 100px 0;
+}
+.complain7 .cen{
+	text-align: center;
+}
+.complain7 img{
+	width: 100%;
+}
+.complain7 .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.complain7 .middle i{
+	cursor: pointer;
+	color: white;
+	padding: 10px;
+	border-radius: 50%;
+}
+.complain7 .middle .fbo{
+	background: #1877F2;
+	transition: 0.6s;
+}
+.complain7 .middle .fbo:hover{
+	background: blue;
+	transition: 0.6s;
+	font-size: 20px;
+}
+.complain7 .middle .inta{
+	background: #ff9933;
+	transition: 0.6s;
+}
+.complain7 .middle .inta:hover{
+	background: #cc3300;
+	transition: 0.6s;
+	font-size: 20px;
+}
+.complain7 .middle .twi{
+	background: #3399cc;
+	transition: 0.6s;
+}
+.carousel-indicators{
+	position: relative;
+	padding-top: 50px;
+}
+.carousel-indicators li{
+	height: 15px;
+	width: 15px;
+    border-radius: 50%;
+    background: green;
+    border-top: 0;
+    border-bottom: 0;
+}
+.complain7 .middle .twi:hover{
+	background: #003366;
+	transition: 0.6s;
+	font-size: 20px;
+}
+.honve:hover img {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+.honve:hover .middle {
+  opacity: 1;
+}
+
+.complain7 .bod{
+	text-align: center;
+	border: 1px solid whitesmoke;
+}
+.complain8{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.complain8 h6{
+	margin-top: 20px;
+}
+.complain8 .headrow .cen{
+	text-align: center;
+}
+.complain8 .row{
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.complain8 .row input{
+	width: 80%;
+	padding: 10px;
+	margin-top:20px;
+	font-size: 15px; 
+	background: whitesmoke;
+}
+.complain8 .row .checkform .poscheck{
+	position: absolute;
+	top: 11%;
+	left: 38%;
+	color: red;
+}
+.complain8 .row .checkform .poscheck1{
+	position: absolute;
+	top: 36%;
+	left: 38%;
+	color: red;
+}
+.complain8 .row .checkform .poscheck2{
+	position: absolute;
+	top: 61%;
+	left: 38%;
+	color: red;
+}
+.complain8 .row .area{
+	position: absolute;
+	top: 9%;
+	left: 48%;
+	color: red;
+}
+.complain8 .row .btc{
+	background: orange;
+	border: 1px solid orange;
+	color: white;
+	margin-top: 0;
+	transition: 0.5s;
+	width: 42%;
+}
+.complain8 .row .btcrow .cen{
+	text-align: center;
+	padding-left: 52px;
+	padding-right: 125px;
+}
+.complain8 .row .btc:hover{
+	background: blue;
+	transition: 0.5S;
+}
+.complain8 .row textarea{
+	padding-left: 10px;
+	margin-top: 20px;
+	background: whitesmoke;
+}
+.logodad .row{
+	background: green;
+}
+.logodad .row .cen{
+	padding-left: 0;
+	padding-right: 0;
+	cursor: pointer;
+}
+.logodad .row .cen img:hover{
+	transition: 0.5s;
+	opacity: 0.7;
+}
+.logodad .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.logodad a{
+	width: 35%;
+}
+.footer{
+	padding: 100px 0 100px 0;
+	background: black;
+}
+.footer .cen{
+	text-align: center;
+}
+.footer .iconfoot i{
+	border: 2px solid white;
+	color: white;
+	padding: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.footer .iconfoot i:hover{
+	border-color: #99cc00;
+	transition: 0.5s;
+	color: #99cc00;
+	padding: 10px;
+	font-size: 30px;
+}
+.footer img {
+	margin: 30px 0 20px 0;
+	width: 30%;
+}
+.footer p{
+	color: white;
+}
+
+
+#toTop {
+    padding: 5px 3px;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+}
+#toTop button{
+	border-radius: 50%;
+}
+@media(min-width:578px) and (max-width: 991px){
+	.menu #navbarNav ul li:first-child{
+		border-top: 1px solid black;
+	}
+	.menu #navbarNav ul li{
+		border-bottom: 1px solid transparent;
+	}
+	.menu #navbarNav ul li a:hover{
+		color: orange;
+	}
+	.menu #navbarNav ul li:hover{
+		border-bottom: 1px solid orange;
+	}
+}
+@media(min-width: 768px) and (max-width: 992px){
+	.text1{
+		top:20%;
+	}
+	/*.complain4 i{
+		width: 100%;
+	}*/
+	.complain4 .chungdad .row>div{
+		padding-left: 0;
+	}
+	.complain4 .species .chungdad .ahihii{
+		margin-left: 5px;
+	}
+	.complain4 .species .man img{
+		height: 100%;
+	}
+	.complain4 .cp4icon i{
+	    padding: 50px 30px;
+	}
+	.complain5 .row img{
+		width: 34%;
+		top:3%;
+		left: 32%;
+	}
+	.complain5 .row .cp5da{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.complain5 .row .cp5da p{
+		font-size: 14px;
+	}
+	.complain7 .middle{
+		width: 100%;
+		top: 57%;
+	}
+	.complain7 .bod p{
+		font-size: 13px;
+	}
+	.complain8 .row input{
+		width: 100%;
+	}
+	.complain8 .row .checkform .nho{
+		left: 45%;
+	}
+	.complain8 .row .btc{
+		width: 100% !important;
+	}
+	.complain8 .row .btcrow{
+		padding-left: 0;
+	}
+	.complain8 .row .btcrow .cen{
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+@media(min-width:576px) and (max-width: 768px){
+
+	.text1 h1{
+		font-size: 40px;
+	}
+	.text1 .btn{
+		font-size: 15px;
+	}
+	.text1 span{
+		font-size: 13px;
+	}
+	.menu #navbarNav ul li:first-child{
+		border-top: 1px solid black;
+	}
+	.menu #navbarNav ul li{
+		border-bottom: 1px solid transparent;
+	}
+	.menu #navbarNav ul li a:hover{
+		color: orange;
+	}
+	.menu #navbarNav ul li:hover{
+		border-bottom: 1px solid orange;
+	}
+	.complain3 ul li{
+		font-size: 12px;
+		padding: 12px;
+	}
+	h4{
+		font-size: 20px !important;
+	}
+	p{
+		font-size: 12px !important;
+	}
+	.complain4 .chungdad{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain4 .cp4icpn i{
+		width: 100%;
+	}
+	.complain4 .cp4{
+		width: 100%;
+	}
+	.complain4 .row .ic{
+		padding-bottom: 30px;
+	}
+	.complain4 .chungdad .row>div{
+	padding-left: 0;
+	}
+	.complain5 .row img{
+		width: 15%;
+		top:4%;
+		left: 43%;
+	}
+	.complain8 .row .btc{
+		width: 100% !important;
+	}
+	.complain8 .row .btcrow{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain8 .row .btcrow .cen{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain8 .row .checkform .nho{
+		font-size: 11px;
+	}
+	.complain8 .row .checkform .poscheck{
+		top: 13%;
+	}
+	.complain8 .row .checkform .poscheck1{
+		top: 38%;
+	}
+	.complain8 .row .checkform .poscheck2{
+		top: 63%;
+	}
+	.footer .medi{
+		margin-top: 20px;
+	}
+
+}
+@media(max-width:576px){
+	.menu{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.menu a img{
+		width: 80%;
+	}
+	.menu #navbarNav ul li:first-child{
+		border-top: 1px solid black;
+	}
+	.menu #navbarNav ul li{
+		border-bottom: 1px solid transparent;
+	}
+	.menu #navbarNav ul li a:hover{
+		color: orange;
+	}
+	.menu #navbarNav ul li:hover{
+		border-bottom: 1px solid orange;
+	}
+	.text1{
+		top: 35%;
+	}
+	.text1 h1{
+		font-size: 30px;
+	}
+	.text1 .btn{
+		font-size: 13px;
+	}
+	.text1 span{
+		font-size: 10px;
+	}
+	.text1 .bot{
+		margin-top:90px;
+	}
+	.complain2{
+		padding-top: 40px;
+	}
+	.complain2>img{
+		width: 100%;
+		height: 400px;
+	}
+	.complain2 .couterson{
+		top: 12%;
+	}
+	.complain3 ul li{
+		font-size: 15px;
+		padding: 15px;
+	}
+	.complain3 .text20 span{
+		font-size: 30px;
+	}
+	.complain3 .text20 hr{
+		width: 300px;
+	}
+	.complain3 .text20 p{
+		font-size: 20px !important;
+	}
+	h4{
+		font-size: 20px !important;
+	}
+	p{
+		font-size: 10px !important;
+	}
+	.complain4 .species i{
+		padding: 20px;
+		font-size: 20px;
+		width: 100%;
+	}
+	.complain4 .species .chungdad .ahihii{
+		margin-left: 10px;
+	}
+	.complain4 .cp4icon i{
+		width: 100%;
+	}
+	.complain4 .row .ic{
+		padding-bottom: 30px;
+	}
+	.complain5 {
+		padding-top: 40px;
+	}
+	.complain5 .row img{
+		top: 9%;
+		width: 18%;
+	}
+	.complain8 {
+		padding-top: 40px;
+	}
+	.complain8 .row input{
+		width: 100% !important;
+	}
+	.complain8 .row .btcrow{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain8 .row .btcrow .cen{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain8 .row .checkform .nho{
+		left: 49%;
+	}
+	.complain8 .row .checkform .poscheck{
+		top: 15%;
+	}
+	.complain8 .row .checkform .poscheck1{
+		top: 50%;
+	}
+	.complain8 .row .checkform .poscheck2{
+		top: 83%;
+	}
+	.footer .medi{
+		margin-top: 20px;
+	}
+}
